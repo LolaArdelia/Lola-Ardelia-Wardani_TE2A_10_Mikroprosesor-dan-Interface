@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "author": "della ardelia",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno1", "top": 108.68, "left": -326.04, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 64.88,
+      "left": -114.79,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 64.88,
+      "left": -220.39,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": 64.88,
+      "left": -181.99,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r4",
+      "top": 64.88,
+      "left": -162.79,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r5",
+      "top": 64.88,
+      "left": -153.19,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r6",
+      "top": 64.88,
+      "left": -143.59,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r7",
+      "top": 64.88,
+      "left": -133.99,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r8",
+      "top": 64.88,
+      "left": -124.39,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r9",
+      "top": 313.93,
+      "left": -221.24,
+      "rotate": 180,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r10",
+      "top": 72,
+      "left": -288.55,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r11",
+      "top": 313.93,
+      "left": -106.04,
+      "rotate": 180,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r12",
+      "top": 330.65,
+      "left": -126.2,
+      "rotate": 180,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r13",
+      "top": 62.4,
+      "left": -230.95,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r14",
+      "top": 64.88,
+      "left": -210.79,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r15",
+      "top": 64.88,
+      "left": -201.19,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r16",
+      "top": 64.88,
+      "left": -191.59,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg1",
+      "top": -71.82,
+      "left": -350.12,
+      "attrs": { "common": "cathode" }
+    },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg2",
+      "top": -71.82,
+      "left": -407.72,
+      "attrs": { "common": "cathode" }
+    }
+  ],
+  "connections": [
+    [ "r1:2", "uno1:2", "#8f4814", [ "h0" ] ],
+    [ "r8:2", "uno1:3", "white", [ "h0" ] ],
+    [ "r7:2", "uno1:4", "green", [ "h0" ] ],
+    [ "r6:2", "uno1:5", "orange", [ "h0" ] ],
+    [ "r5:2", "uno1:6", "purple", [ "h0" ] ],
+    [ "r4:2", "uno1:7", "yellow", [ "h0" ] ],
+    [ "r3:2", "uno1:8", "cyan", [ "h0" ] ],
+    [ "r16:2", "uno1:9", "blue", [ "h0" ] ],
+    [ "r2:2", "uno1:12", "violet", [ "h0" ] ],
+    [ "r14:2", "uno1:11", "gray", [ "h0" ] ],
+    [ "r15:2", "uno1:10", "limegreen", [ "h0" ] ],
+    [ "uno1:GND.1", "r10:2", "black", [ "v0" ] ],
+    [ "uno1:GND.3", "r9:1", "black", [ "v0" ] ],
+    [ "uno1:A1", "r11:2", "purple", [ "v0" ] ],
+    [ "uno1:A0", "r12:2", "orange", [ "v-0.1", "h-5.8" ] ],
+    [ "r13:2", "uno1:13", "cyan", [ "h0" ] ],
+    [ "sevseg1:E", "r13:1", "cyan", [ "v19.2", "h124.8" ] ],
+    [ "sevseg1:D", "r2:1", "violet", [ "v9.6", "h134.4" ] ],
+    [ "sevseg1:COM.1", "r9:2", "black", [ "h0", "v76.8", "h-38.4", "v9.6" ] ],
+    [ "sevseg1:C", "r14:1", "gray", [ "v-9.6", "h134.4" ] ],
+    [ "sevseg1:B", "r15:1", "limegreen", [ "v0.84", "h124.8" ] ],
+    [ "sevseg1:F", "r12:1", "orange", [ "v-27.96", "h355.2", "v432", "h-86.4" ] ],
+    [ "sevseg1:G", "r11:1", "purple", [ "v-37.56", "h374.4", "v422.4" ] ],
+    [ "sevseg2:E", "r5:1", "purple", [ "h-9.6", "v40.88" ] ],
+    [ "sevseg2:D", "r6:1", "orange", [ "v57.6", "h279.36" ] ],
+    [ "sevseg2:C", "r7:1", "green", [ "v28.8", "h-96" ] ],
+    [ "r8:1", "sevseg2:B", "white", [ "h-0.96", "v-156.08", "h96" ] ],
+    [ "sevseg2:A", "r1:1", "#8f4814", [ "v-8.76", "h0" ] ],
+    [ "sevseg2:F", "r4:1", "yellow", [ "v-56.76", "h260.16" ] ],
+    [ "sevseg2:COM.1", "r10:1", "black", [ "h0", "v57.6" ] ],
+    [ "sevseg2:G", "r3:1", "cyan", [ "v-18.36", "h259.2" ] ],
+    [ "sevseg1:A", "r16:1", "blue", [ "v10.44", "h153.6" ] ]
+  ],
+  "dependencies": {}
+}
