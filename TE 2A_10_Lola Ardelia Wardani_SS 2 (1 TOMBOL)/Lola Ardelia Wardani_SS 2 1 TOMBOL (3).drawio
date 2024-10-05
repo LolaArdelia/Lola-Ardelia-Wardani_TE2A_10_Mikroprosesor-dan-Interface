@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Halaman-1" id="H8eIDnh0e5JwiPzn-Flo">
+    <mxGraphModel dx="1034" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uHfBw3RWAyU9mcRZF3YO-29" target="uHfBw3RWAyU9mcRZF3YO-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-29" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Start&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=4;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="358" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-30" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Apakah Nilai ,&amp;lt;= 0?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="690" width="114" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uHfBw3RWAyU9mcRZF3YO-32" target="uHfBw3RWAyU9mcRZF3YO-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-32" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Nilai pada seven segment ditambah 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-33" value="&lt;b style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;End&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=4;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="340" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uHfBw3RWAyU9mcRZF3YO-35" target="uHfBw3RWAyU9mcRZF3YO-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-35" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Angka pada seven segment ditampilkan sesuai dengan nilai yang ada&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="308" y="460" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uHfBw3RWAyU9mcRZF3YO-37" target="uHfBw3RWAyU9mcRZF3YO-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-37" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Nilai awal pada seven&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;segment diatur menjadi 20&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="328" y="110" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uHfBw3RWAyU9mcRZF3YO-39" target="uHfBw3RWAyU9mcRZF3YO-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-39" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Tekan&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;tombol&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Ya&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;/ Tidak&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="220" width="106" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-40" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Lakukan pengecekan&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;untuk count down&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="329.5" y="350" width="177" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uHfBw3RWAyU9mcRZF3YO-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.676;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uHfBw3RWAyU9mcRZF3YO-40" target="uHfBw3RWAyU9mcRZF3YO-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
